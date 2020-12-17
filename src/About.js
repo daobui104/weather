@@ -12,7 +12,7 @@ class About extends Component {
 
   handleChange = (event) => {
     this.setState({ zipcode: event.target.value });
-    //console.log("Your zip code is" + this.state.zipcode);
+    console.log("Your zip code is" + this.state.zipcode);
   };
 
   handleSubmit = (event) => {
